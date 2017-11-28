@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:background="@color/background"
+    tools:context="com.example.acer.proudduck.activity.MainActivity">
+
+    <EditText
+        android:id="@+id/edtName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/hint_name"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        />
+
+    <EditText
+        android:id="@+id/edtPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/hint_price"
+        android:layout_below="@+id/edtName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        app:srcCompat="@drawable/ic_help_black_48dp"
+        android:layout_below="@+id/edtPrice"
+        android:layout_alignLeft="@+id/edtPrice"
+        android:layout_alignStart="@+id/edtPrice"
+        android:layout_marginLeft="17dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="22dp" />
+
+    <Button
+        android:id="@+id/buttonChoose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_choose"
+        android:textColor="@color/colorText"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:layout_alignBottom="@+id/imageView"
+        android:layout_alignRight="@+id/edtPrice"
+        android:layout_alignEnd="@+id/edtPrice"
+        android:layout_marginRight="14dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginBottom="37dp" />
+
+    <Button
+        android:id="@+id/buttonAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_add"
+        android:textColor="@color/colorText"
+        android:backgroundTint="@color/colorPrimary"
+        android:layout_above="@+id/buttonlist"
+        android:layout_alignLeft="@+id/buttonlist"
+        android:layout_alignStart="@+id/buttonlist"
+        android:layout_marginBottom="21dp" />
+
+    <Button
+        android:id="@+id/buttonlist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_list"
+        android:textColor="@color/colorText"
+        android:backgroundTint="@color/colorPrimary"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="51dp" />
+
+</RelativeLayout>
+

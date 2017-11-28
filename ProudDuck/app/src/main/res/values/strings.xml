@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ProuDuck</string>
+
+    <string name="text_list">List ProuDuck</string>
+    <string name="text_add">Add ProuDuck</string>
+    <string name="text_choose">Choose Image</string>
+    <string name="text_name">Duck Name</string>
+    <string name="text_price">Price</string>
+    <string name="text_update">Update</string>
+
+    <string name="hint_name">Name</string>
+    <string name="hint_price">Price</string>
+</resources>
